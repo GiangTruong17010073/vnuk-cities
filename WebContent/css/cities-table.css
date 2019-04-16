@@ -1,0 +1,22 @@
+@charset "UTF-8";
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #6da3f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2a335;
+}
+
+td,th{
+  border: 1px solid #000;
+}
+
+th{
+  text-align: center;
+}
